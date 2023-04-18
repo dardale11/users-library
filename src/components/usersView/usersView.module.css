@@ -1,0 +1,42 @@
+.container {
+  background-color: aqua;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+input {
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.userCardContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.userCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  border: 0.5rem solid rgb(60, 65, 76);
+  border-radius: 20%;
+  background-color: white;
+}
+
+.header {
+  padding-top: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .userCard {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1.5rem solid rgb(60, 65, 76);
+  }
+}

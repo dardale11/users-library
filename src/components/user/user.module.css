@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.names {
+  flex: 1;
+  margin: 5px;
+}
+
+.names input {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.contentRow {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: auto;
+}
+
+.contentRow label {
+  align-self: baseline;
+}
+
+.contentRow input {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.showBorders input {
+  border: auto;
+}
+
+.showBorders input:focus {
+  outline: auto;
+}
+
+.hideBorders input {
+  border: none;
+}
+
+.hideBorders input:focus {
+  outline: none;
+}

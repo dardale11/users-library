@@ -1,0 +1,19 @@
+.customButton {
+  padding: 0.5rem;
+  border-radius: 30%;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.customButton:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (min-width: 768px) {
+  .customButton {
+    padding: 1rem;
+    border-radius: 30%;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+}
