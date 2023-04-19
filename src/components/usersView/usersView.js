@@ -25,7 +25,7 @@ const UsersView = ({ userIdEdit, setUserIdEdit, createUser, createMode }) => {
 
   useEffect(() => {
     dispatch(fetchRandomUsers())
-  }, [])
+  }, [dispatch])
 
   return (
     <div className={userIdEdit || createMode ? styles.blur : undefined}>
